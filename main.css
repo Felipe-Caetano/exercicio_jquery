@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+body {
+  background-color: #b388ec;
+}
+
+.container {
+    width: 700px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 240px;
+}
+
+#task-button {
+  height: 50px;
+  width: 150px;
+}
+
+#task-input {
+  height: 50px;
+  width: 450px;
+  font-size: 26px;
+}
+
+#task-form {
+  display: flex;
+  justify-content:space-between;
+  width: 600px;
+}
+
+#task-list {
+  font-size: 26px;
+  padding-top: 24px;
+}
+
+h2 {
+  font-size: 48px;
+}
